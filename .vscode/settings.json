@@ -1,0 +1,23 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.parameterHints.enabled": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.suggest.showSnippets": true,
+  "editor.hover.enabled": "on",
+  "editor.tabCompletion": "on",
+  "editor.inlayHints.enabled": "off",
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "javascript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.parameterTypes.enabled": false,
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false
+}
