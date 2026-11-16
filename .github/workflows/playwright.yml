@@ -28,7 +28,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: 5. Run Playwright tests
-      run: npm test
+      run: npx playwright test "tests/interview-scripts/1hackerrank.spec copy.ts"
 
     - name: 6. Upload HTML Test Report as an Artifact
       uses: actions/upload-artifact@v4
