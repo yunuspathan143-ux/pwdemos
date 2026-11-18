@@ -1,8 +1,11 @@
 import { test, expect } from '@playwright/test';
 
-test('Verify example domain page title and heading', async ({ page }) => {
-  await page.goto('https://example.com', { waitUntil: 'domcontentloaded' });
+test('Verify SauceDemo login page title and button', async ({ page }) => {
+  await page.goto('https://www.saucedemo.com/');
 
-  // Use Playwright recommended user-facing locator:
-  await expect(page.getByRole('heading', { name: 'Example Domain' })).toBeVisible({ timeout: 10000 });
+  // Verify page title
+  await expect(page).toHaveTitle('Swag Labs');
+
+  // Verify login button is visible
+  await expect(page.locator('#login-button')).toBeVisible();
 });
